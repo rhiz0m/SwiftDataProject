@@ -16,6 +16,7 @@
 		FE5925342B0CF6640067C158 /* SwiftDataProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5925332B0CF6640067C158 /* SwiftDataProjectUITestsLaunchTests.swift */; };
 		FE8A02B12B0CFC8300B64913 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8A02B02B0CFC8300B64913 /* Expense.swift */; };
 		FE8A02B42B0D058000B64913 /* ExpenseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8A02B32B0D058000B64913 /* ExpenseCell.swift */; };
+		FE8A02B62B0D0ABB00B64913 /* AddExpenseSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8A02B52B0D0ABB00B64913 /* AddExpenseSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		FE5925332B0CF6640067C158 /* SwiftDataProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FE8A02B02B0CFC8300B64913 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
 		FE8A02B32B0D058000B64913 /* ExpenseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseCell.swift; sourceTree = "<group>"; };
+		FE8A02B52B0D0ABB00B64913 /* AddExpenseSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				FE8A02B32B0D058000B64913 /* ExpenseCell.swift */,
+				FE8A02B52B0D0ABB00B64913 /* AddExpenseSheet.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 				FE8A02B12B0CFC8300B64913 /* Expense.swift in Sources */,
 				FE5925192B0CF6630067C158 /* ContentView.swift in Sources */,
 				FE5925172B0CF6630067C158 /* SwiftDataProjectApp.swift in Sources */,
+				FE8A02B62B0D0ABB00B64913 /* AddExpenseSheet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -51,12 +51,6 @@ struct ContentView: View {
     }
 }
 
-struct AddExpenseSheet: View {
-    var body: some View {
-        Text("ok")
-    }
-}
-
 
 #Preview {
     ContentView()
