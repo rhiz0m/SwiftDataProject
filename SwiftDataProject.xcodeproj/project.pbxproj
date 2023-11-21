@@ -14,6 +14,8 @@
 		FE5925282B0CF6640067C158 /* SwiftDataProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5925272B0CF6640067C158 /* SwiftDataProjectTests.swift */; };
 		FE5925322B0CF6640067C158 /* SwiftDataProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5925312B0CF6640067C158 /* SwiftDataProjectUITests.swift */; };
 		FE5925342B0CF6640067C158 /* SwiftDataProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5925332B0CF6640067C158 /* SwiftDataProjectUITestsLaunchTests.swift */; };
+		FE8A02B12B0CFC8300B64913 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8A02B02B0CFC8300B64913 /* Expense.swift */; };
+		FE8A02B42B0D058000B64913 /* ExpenseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8A02B32B0D058000B64913 /* ExpenseCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		FE59252D2B0CF6640067C158 /* SwiftDataProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDataProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE5925312B0CF6640067C158 /* SwiftDataProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataProjectUITests.swift; sourceTree = "<group>"; };
 		FE5925332B0CF6640067C158 /* SwiftDataProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FE8A02B02B0CFC8300B64913 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		FE8A02B32B0D058000B64913 /* ExpenseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 		FE5925152B0CF6630067C158 /* SwiftDataProject */ = {
 			isa = PBXGroup;
 			children = (
+				FE8A02AF2B0CFC2600B64913 /* Model */,
+				FE8A02B22B0D055600B64913 /* Views */,
 				FE5925162B0CF6630067C158 /* SwiftDataProjectApp.swift */,
 				FE5925182B0CF6630067C158 /* ContentView.swift */,
 				FE59251A2B0CF6640067C158 /* Assets.xcassets */,
@@ -125,6 +131,22 @@
 				FE5925332B0CF6640067C158 /* SwiftDataProjectUITestsLaunchTests.swift */,
 			);
 			path = SwiftDataProjectUITests;
+			sourceTree = "<group>";
+		};
+		FE8A02AF2B0CFC2600B64913 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FE8A02B02B0CFC8300B64913 /* Expense.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FE8A02B22B0D055600B64913 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE8A02B32B0D058000B64913 /* ExpenseCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +279,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE8A02B42B0D058000B64913 /* ExpenseCell.swift in Sources */,
+				FE8A02B12B0CFC8300B64913 /* Expense.swift in Sources */,
 				FE5925192B0CF6630067C158 /* ContentView.swift in Sources */,
 				FE5925172B0CF6630067C158 /* SwiftDataProjectApp.swift in Sources */,
 			);
