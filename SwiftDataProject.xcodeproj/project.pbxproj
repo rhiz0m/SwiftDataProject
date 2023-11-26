@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE02C9F92B13A60100048BD0 /* UpdateExpenseSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE02C9F82B13A60100048BD0 /* UpdateExpenseSheet.swift */; };
 		FE5925172B0CF6630067C158 /* SwiftDataProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5925162B0CF6630067C158 /* SwiftDataProjectApp.swift */; };
 		FE5925192B0CF6630067C158 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5925182B0CF6630067C158 /* ContentView.swift */; };
 		FE59251B2B0CF6640067C158 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE59251A2B0CF6640067C158 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE02C9F82B13A60100048BD0 /* UpdateExpenseSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateExpenseSheet.swift; sourceTree = "<group>"; };
 		FE5925132B0CF6630067C158 /* SwiftDataProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDataProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE5925162B0CF6630067C158 /* SwiftDataProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataProjectApp.swift; sourceTree = "<group>"; };
 		FE5925182B0CF6630067C158 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 			children = (
 				FE8A02B32B0D058000B64913 /* ExpenseCell.swift */,
 				FE8A02B52B0D0ABB00B64913 /* AddExpenseSheet.swift */,
+				FE02C9F82B13A60100048BD0 /* UpdateExpenseSheet.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE02C9F92B13A60100048BD0 /* UpdateExpenseSheet.swift in Sources */,
 				FE8A02B42B0D058000B64913 /* ExpenseCell.swift in Sources */,
 				FE8A02B12B0CFC8300B64913 /* Expense.swift in Sources */,
 				FE5925192B0CF6630067C158 /* ContentView.swift in Sources */,
