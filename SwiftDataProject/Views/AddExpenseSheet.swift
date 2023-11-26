@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct AddExpenseSheet: View {
-    
+    // works because we injected it in the root (swiftDataProjectApp)
+    @Environment(\.modelContext) var context
     @Environment(\.dismiss) private var dismiss
     
     @State private var name: String = ""
@@ -32,7 +33,9 @@ struct AddExpenseSheet: View {
                 
                 ToolbarItemGroup(placement: .topBarTrailing) {
                     Button("Save") {
-                        // Save
+                        let expense = Expense(name: name, date: date, value: value)
+                        context.insert(expense)
+                        dismiss()
                     }
                 }
             }
@@ -43,3 +46,5 @@ struct AddExpenseSheet: View {
 #Preview {
     AddExpenseSheet()
 }
+
+// Work with the Context first before you save it in the Container
